@@ -1,0 +1,11 @@
+header {
+  background-color: #ee3225;
+}
+
+header p {
+  margin: 0;
+  padding: 16px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+}
