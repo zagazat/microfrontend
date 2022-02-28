@@ -11,7 +11,8 @@ const RemoteEmailForm = React.lazy(() => import('app1/App'));
 function ErrorFallback({ error }: { error: Error }) {
     return (
         <div>
-            <p>{error.message}</p>
+            <pre>Ошибка:</pre>
+            <pre>{error.message}</pre>
         </div>
     );
 }

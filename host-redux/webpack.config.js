@@ -56,7 +56,7 @@ module.exports = (env, args) => {
         plugins: [
             new HtmlWebpackPlugin({
                 template: './src/js/index.html',
-                title: 'Module Federation Host',
+                title: 'MF Host',
             }),
             new CleanWebpackPlugin(),
             new ModuleFederationPlugin({
